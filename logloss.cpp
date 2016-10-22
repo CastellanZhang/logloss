@@ -72,5 +72,6 @@ int main(int argc, char* argv[])
     loss /= lineNum;
     cout << "lineNum = " << lineNum << endl;
     cout << "logloss = " << -loss << endl;
+    return 0;
 }
 
